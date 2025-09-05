@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Dark Anime",
+  "description": "A sleek dark theme for Chrome",
+  "theme": {
+    "images": {
+      "theme_frame": "images/theme_frame.jpg",
+      "theme_toolbar": "images/theme_toolbar.png",
+      "theme_ntp_background": "images/theme_ntp_background.png"
+
+    },
+   "colors": {
+  "frame": [45, 0, 60],           
+  "toolbar": [120, 70, 160],         
+  "tab_text": [230, 220, 255],       
+  "tab_background_text": [180, 160, 220], 
+  "bookmark_text": [230, 220, 255], 
+  "ntp_background": [25, 0, 40],     
+  "ntp_text": [230, 220, 255],       
+  "button_background": [100, 60, 140] 
+}
+
+,
+    "tints": {
+       "buttons": [0.6, 0.3, 0.8]
+    },
+    "properties": {
+      "ntp_background_alignment": "center",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}
